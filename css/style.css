@@ -6,5 +6,74 @@ body {
   max-width: 1378px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-li {
+  margin-left: 50px;
+  color: #fff;
+}
+.header {
+  background-color: blue;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  display: flex;
+}
+.wrapper {
+  justify-content: space-around;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle {
+  height: 707px;
+
+  margin-left: 150px;
+}
+.wrapper :first-child {
+  margin-top: 150px;
+  height: 595px;
+  margin-left: 150px;
+}
+.wrapper :last-child {
+  height: 595px;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.dots :first-child {
+  position: fixed;
+  left: 700px;
+  bottom: 150px;
+}
+.dots :nth-child(2) {
+  position: fixed;
+  left: 720px;
+  bottom: 150px;
+  opacity: 30%;
+}
+.dots :nth-child(3) {
+  position: fixed;
+  left: 740px;
+  bottom: 150px;
+  opacity: 30%;
+}
+.arrows {
+  position: fixed;
+  left: 1315px;
+  bottom: 140px;
+}
+.arrowL {
+  transform: rotate(180deg);
+  opacity: 30%;
 }
