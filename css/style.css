@@ -1,0 +1,10 @@
+body {
+  background-color: #0a22f4;
+}
+
+.container {
+  max-width: 1378px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
