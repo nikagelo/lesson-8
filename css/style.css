@@ -16,7 +16,6 @@ body {
   color: #fff;
 }
 .header {
-  background-color: blue;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
